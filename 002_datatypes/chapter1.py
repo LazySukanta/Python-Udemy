@@ -1,8 +1,10 @@
 spice_mix = set()
 
-print()
-print()
-print()
-
-
-
+print(f"Initial mixing is going on : {id(spice_mix)}")
+print(f"Initial mixing is going on : {spice_mix}")
+spice_mix.add("abc")
+print(f"Initial mixing is going on : {id(spice_mix)}")
+print(f"Initial mixing is going on : {spice_mix}")
+spice_mix.add("xyx")
+print(f"Initial mixing is going on : {id(spice_mix)}")
+print(f"Initial mixing is going on : {spice_mix}")
